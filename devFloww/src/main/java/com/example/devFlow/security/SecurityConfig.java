@@ -30,7 +30,8 @@ public class SecurityConfig {
                 .requestMatchers("/", "/images/**", "/css/**", "/js/**", "/webjars/**").permitAll()
                 .requestMatchers("/project", "/projects", "/projects/**", "/login", "/create", "/create_profile", "/create_project", 
                                  "/client_dashboard", "/create_profile_dev", "/login_success", "/success", "/login_info", "/register", 
-                                 "/signup", "/signup_info", "/check-email", "/check-username", "/check-email-login", "/check-password-login")
+                                 "/signup", "/signup_info", "/check-email", "/check-username", "/check-email-login", "/check-password-login",
+                                 "/profile-settings", "/recommended")
                 .permitAll()
                 .anyRequest().authenticated()
             )

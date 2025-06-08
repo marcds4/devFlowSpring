@@ -14,7 +14,7 @@ import jakarta.servlet.http.HttpServletRequest;
 @Controller
 public class LoginController {
 
-   /*  private final UserService userService;
+     private final UserService userService;
 
     public LoginController(UserService userService) {
         this.userService = userService;
@@ -63,5 +63,5 @@ public class LoginController {
         }
 
         return "login_success";
-    }*/
+    }
 }
